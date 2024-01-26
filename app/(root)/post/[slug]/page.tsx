@@ -11,6 +11,8 @@ async function getData(slug: string) {
   
     return data;
   }
+
+  export const revalidate = 30
   
   export default async function SlugPage({
     params,

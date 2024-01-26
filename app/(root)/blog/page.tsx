@@ -46,7 +46,7 @@ async function getData(){
                       </h3>
                     </div>
     
-                    <p className="prose max-w-nonetext-gray-400 line-clamp-2">
+                    <p className="prose max-w-none text-gray-200 line-clamp-2">
                       {post.overview}
                     </p>
                   </Link>
