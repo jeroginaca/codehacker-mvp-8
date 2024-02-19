@@ -5,7 +5,7 @@ import React from 'react'
 const Objetivos = () => {
   return (
     <div className="mt-12">
-      <div className="contenedor w-[95%] xl:w-full gradient-bg px-[5rem] lg:py-[5rem] py-[3rem] rounded-[20px]">
+      <div className="contenedor w-[95%] xl:w-full gradient-bg px-[4rem] md:px-[5rem] lg:py-[5rem] py-[2rem] rounded-[20px]">
             <div className="programa-title -ml-8 lg:ml-8 lg:mb-[1rem]">
                 <h2 className="text-[36px] lg:text-[48px] uppercase font-bold">Objetivos</h2>
             </div>

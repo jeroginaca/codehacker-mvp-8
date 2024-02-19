@@ -25,7 +25,7 @@ const NavLinksResp = () => {
                 setToggle(!toggle);
                 setActive(link.title)}}
             >
-              <a href={`#${link.id}`}>
+              <a href={`${link.id}`}>
                 {link.title} 
               </a>
             </li>

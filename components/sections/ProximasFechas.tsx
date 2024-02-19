@@ -9,7 +9,7 @@ const ProximasFechas = () => {
             <p className="gradient-subtitle font-semibold ">No te quedes sin tu plaza</p>
             <h2 className='mt-[10px] mb-[2.5rem] text-[28px] md:text-[36px] font-bold text-center'>Próximas fechas para el Bootcamp</h2>
             
-            <div className="contenedor flex flex-col justify-center  w-[80%] rounded-[15px] proxima-fecha py-8 px-2 md:py-[2rem] md:px-[2rem]">
+            <div className="contenedor flex flex-col justify-center  w-[95%] md:w-[80%] rounded-[15px] proxima-fecha py-8 px-2 md:py-[2rem] md:px-[2rem]">
                 <div className="flex flex-col md:flex-row w-full justify-between items-center">
                     <div className="flex items-center justify-start -ml-16 md:-ml-0 mb-4 md:mb-0" >
                         <img src="https://res.cloudinary.com/dr3cvyonp/image/upload/v1688110066/CodeHacker/Exclamacio%CC%81n_dyeywa.png" alt="" className="w-[48px] md:mr-[10px] "/>
@@ -20,7 +20,7 @@ const ProximasFechas = () => {
                         <p className="tracking-wider text-center">ÚLTIMAS PLAZAS</p>
                     </div>
                 </div>
-                <h2 className="text-[36px] font-bold ml-2 mt-6 mb-8 md:mb-6 lg:mb-10 tracking-wide leading-[1] md:leading-normal text-center md:text-left">Full Stack Developer</h2>
+                <h2 className="text-[32px] md:text-[36px] font-bold ml-2 mt-6 mb-8 md:mb-6 lg:mb-10 tracking-wide leading-[1] md:leading-normal  text-left">Full Stack Developer ⚡️</h2>
                 
                 <div className="hidden lg:flex justify-between items-center px-8 flex-col md:flex-row">
 

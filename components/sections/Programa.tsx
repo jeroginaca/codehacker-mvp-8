@@ -5,10 +5,10 @@ import React from 'react'
 const Programa = () => {
   return (
     <section id="programa" className="pt-nav">
-        <div className="contenedor w-[90%] xl:w-full gradient-bg p-[5rem] rounded-[20px]">
+        <div className="contenedor w-[95%] xl:w-full gradient-bg px-[5rem] py-[2rem] md:p-[5rem] rounded-[20px]">
             <div className="programa-title -ml-10 lg:ml-8 lg:mb-[1rem]">
                 <h2 className="text-[36px] lg:text-[48px] uppercase font-bold">Programa</h2>
-                <p className='text-[12px] lg:text-[16px] text-white/70'>Duración: 16 semanas - Lunes, Miercoles y Viernes de 18:30 a 21:30hs</p>
+                <p className='text-[14px] lg:text-[16px] text-white/70'>Duración: 16 semanas - Lunes, Miercoles y Viernes de 18:30 a 21:30hs</p>
             </div>
 
             <div className="flex flex-col md:flex-row w-full flex-wrap items-start ml-0 md:ml-16">
@@ -20,7 +20,7 @@ const Programa = () => {
                       height={50}
                       alt="logo"
                     />
-                        <h3 className='text-[36px] font-bold'>Unidad 1</h3>
+                        <h3 className='text-[28px] md:text-[36px] font-bold'>Unidad 1</h3>
                     </div>
                         <ul className='mt-2'>
                             <li><Link href="#">Figma</Link></li>
@@ -39,7 +39,7 @@ const Programa = () => {
                       height={50}
                       alt="logo"
                     />
-                        <h3 className='text-[36px] font-bold'>Unidad 2</h3>
+                        <h3 className='text-[28px] md:text-[36px] font-bold'>Unidad 2</h3>
                     </div>
                         <ul className='mt-2'>
                             <li><Link href="#">Flex Box y CSS Grid</Link></li>
@@ -57,7 +57,7 @@ const Programa = () => {
                       height={50}
                       alt="logo"
                     />
-                        <h3 className='text-[36px] font-bold'>Unidad 3</h3>
+                        <h3 className='text-[28px] md:text-[36px] font-bold'>Unidad 3</h3>
                     </div>
                         <ul className='mt-2'>
                             <li><Link href="#">React APPs:</Link></li>
@@ -77,7 +77,7 @@ const Programa = () => {
                       height={50}
                       alt="logo"
                     />
-                        <h3 className='text-[36px] font-bold'>Unidad 4</h3>
+                        <h3 className='text-[28px] md:text-[36px] font-bold'>Unidad 4</h3>
                     </div>
                         <ul className='mt-2'>
                             <li><Link href="#">NextJS Full Stack APPs:</Link></li>

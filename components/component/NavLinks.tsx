@@ -17,7 +17,7 @@ const NavLinks = () => {
       >
         <a href={`${link.id}`}>
           {link.title}
-        </a>
+        </a>   
         </li>
     ))}
   </ul>
