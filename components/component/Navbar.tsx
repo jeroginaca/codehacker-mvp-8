@@ -1,8 +1,9 @@
 "use client"
 
-import Image from 'next/image'
-import Link from 'next/link'
-import { NavLinks, NavLinksResp } from '.'
+import Image from '@/node_modules/next/image';
+import Link from '@/node_modules/next/link';
+import NavLinks from './NavLinks';
+import NavLinksResp from './NavLinksResp';
 import { useEffect, useState } from 'react';
 
 const Navbar = () => {
@@ -38,7 +39,7 @@ const Navbar = () => {
 
         <NavLinks />
 
-        <Link href="/curso-gratis" className="hidden md:flex text-[20px]  py-[12px] px-[30px] font-semibold tracking-[.10em]">Recursos Gratis</Link> 
+        <Link href="/free-resources" className="hidden md:flex text-[20px]  py-[12px] px-[30px] font-semibold tracking-[.10em]">Recursos Gratis</Link> 
          
         <NavLinksResp />
       </div>
