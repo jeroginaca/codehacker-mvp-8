@@ -16,7 +16,7 @@ const FooterComponent = () => {
                 alt='logo'
               />
               <p className="text-base text-white/40 ml-12">
-                   2023 <br /> Code Hacker Academy &copy;
+                   2024 <br /> Code Hacker Academy &copy;
               </p>
             </div>
 
@@ -34,7 +34,7 @@ const FooterComponent = () => {
             </div>
           </div>
           <div className="flex justify-between items-center flex-wrap mt-10 border-t border-gray-100/10 text-white/40 sm:px-16 px-6 pt-10">
-            <p>2023 CodeHacker Academy</p>
+            <p>2024 CodeHacker Academy</p>
             <div className="footer__copyrights-link">
                 <Link href="/" className="text-gray-500">
                     Política de Privacidad

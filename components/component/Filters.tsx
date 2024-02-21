@@ -4,7 +4,7 @@ import { useSearchParams, useRouter } from "@/node_modules/next/navigation";
 import { formUrlQuery } from "@/sanity/utils";
 import { useState } from "react";
 
-const links = ["all", "Next 13", "frontend", "backend", "fullstack"]
+const links = [ "Web Design", "frontend", "backend", "fullstack"]
 
 const Filters = () => {
     const [active, setActive] = useState("");
@@ -35,7 +35,7 @@ const Filters = () => {
       router.push(newUrl, { scroll: false })
   }
   return (
-    <ul className="text-white-800 body-text no-scrollbar flex w-full max-w-full gap-2 overflow-auto py-12 sm:max-w-2xl">
+    <ul className=" text-white-800 body-text no-scrollbar flex w-full justify-center items-center max-w-full gap-2 overflow-auto py-12 sm:max-w-2xl">
         {links.map((link) => (
             <button
             key={link}

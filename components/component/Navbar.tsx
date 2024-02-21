@@ -39,7 +39,7 @@ const Navbar = () => {
 
         <NavLinks />
 
-        <Link href="/free-resources" className="hidden md:flex text-[20px]  py-[12px] px-[30px] font-semibold tracking-[.10em]">Recursos Gratis</Link> 
+        <Link href="/contact" className="hidden md:flex text-[20px]  py-[12px] px-[30px] font-semibold tracking-[.10em]">Contacto</Link> 
          
         <NavLinksResp />
       </div>

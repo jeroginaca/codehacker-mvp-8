@@ -8,8 +8,8 @@ export const navLinks = [
       title: "Blog",
     },
     {
-      id: "contact",
-      title: "Contacto",
+      id: "/free-resources",
+      title: "Recursos Gratis",
     },
 ];
 
